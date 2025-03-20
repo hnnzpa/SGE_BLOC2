@@ -48,6 +48,11 @@ Amb la consulta SELECT * podem seleccionar tots els registres per després mostr
 
 ![img_6.png](img_6.png)
 
+En el print(variable) li podem indicar un valor el cual correspondrà a l'idex i es seleccionarà només aquell registre que correspon a l'index indicat.
+
+![img_7.png](img_7.png)
+
+
 
 ![img_5.png](img_5.png)
 
