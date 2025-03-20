@@ -11,4 +11,7 @@ def connection_db():
 
     return conn
 
-print(connection_db())
+conn2 = connection_db()
+print(conn2)
+conn2.close()
+print(conn2)
