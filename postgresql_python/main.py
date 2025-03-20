@@ -1,6 +1,7 @@
 #import create_registre as cr
 #import read_registre as rr
-import update_registre as ur
+#import update_registre as ur
+import delete_registre as dr
 
 #cr.create_reg()
 
@@ -13,6 +14,8 @@ import update_registre as ur
     #print('Email: '+ i[3])
     #print('Neixament: ' + i[4])
 
-ur.update_reg()
+#ur.update_reg()
+
+print(dr.delete_reg())
 
 

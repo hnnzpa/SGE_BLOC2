@@ -88,6 +88,18 @@ I també podem veure aquest canvi en la nostra tabla de pgAdmin:
 
 Veiem com en els noms d'Vivian tenim el número de teléfon té el que li hem indicat '000000000'.
 
+6. Eliminar registre.
+
+Amb la comanda DELETE especificant en el WHERE característica propia d'un client, l'eliminem. 
+
+![img_14.png](img_14.png)
+
+* Tant en la captura de dalt com a l'anterior com no he posat en el main print(funcio) no ens ha sortit res per la terminal. 
+
+Veíem a la captura de PdAdmin com el nombre de rows ha disminuït a 2 ja que sabem que hi han dos Vivians (61-2=59).
+
+Per tant ens assegurem que els registres s'han eliminat correctament. 
+
 
 
 
