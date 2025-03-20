@@ -44,6 +44,8 @@ Finalment, en el pgAdmin podem visualitzar els canvis realitzats:
 
 Podem veure com ha augmentat el volum de la nostra tabla (60 - 61 fila) i si baixem cap el final veurem el Roger que hem creat amb la funció create_reg.
 
+4. Llegir registres.
+
 Amb la consulta SELECT * podem seleccionar tots els registres per després mostrar-les. 
 
 ![img_6.png](img_6.png)
@@ -56,9 +58,41 @@ També podem seleccionar únicament una dada de la nostra "tabla", indicant la p
 
 ![img_8.png](img_8.png)
 
+*INTENTS mini exercicis LISTS*
 
+![img_9.png](img_9.png)
+
+Aquí busquem a Andreu i un cop trobat seleccionem les seves dades i en concret el seu correu. 
+
+![img_10.png](img_10.png)
+
+I finalment busquem les dades del Vivian i l'Albert, i seleccionem d'un la seva direcció i de l'altre la data del seu aniversari.
+
+Tornant a Postgressql. 
+
+Ara que ja sabem com funcionen els selectors podem fer tables amb les dades de cada registre. 
 
 ![img_5.png](img_5.png)
+
+5. Actualitzar registres. 
+
+Per actualitzar un registre podem fer servir UPDATE.
+
+Creem una funció que ens ho faciliti i la cridem en el main. (no tenim l'tribut de id_client li posem com clausula de cerca el nom del client)
+
+![img_12.png](img_12.png)
+
+I també podem veure aquest canvi en la nostra tabla de pgAdmin: 
+
+![img_13.png](img_13.png)
+
+Veiem com en els noms d'Vivian tenim el número de teléfon té el que li hem indicat '000000000'.
+
+
+
+
+
+
 
 
 

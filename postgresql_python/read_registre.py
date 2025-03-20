@@ -10,9 +10,29 @@ def read_reg():
     conn.commit()
 
     results = cursor.fetchall()
+    #print(results)
+    #print(results[4])
+    #print(results[4][0], results[4][4]) # de part meva el nom
+
     print(results)
-    print(results[4])
-    print(results[4][0], results[4][4]) # de part meva el nom
+    for i in range (len(results)):
+        if results[i][0] == 'Andreu':
+            print(i)
+            print(results[i])
+            print(results[i][3])
+
+    for i in range (len(results)):
+        if results[i][0] == 'Vivian':
+            print(i)
+            print(results[i])
+            print(results[i][1])
+
+    for i in range (len(results)):
+        if results[i][0] == 'Albert':
+            print(i)
+            print(results[i])
+            print(results[i][4])
+
 
     return results
 
