@@ -1,5 +1,5 @@
 #import create_registre as cr
-#import read_registre as rr
+import read_registre as rr
 #import update_registre as ur
 import delete_registre as dr
 
@@ -16,6 +16,6 @@ import delete_registre as dr
 
 #ur.update_reg()
 
-print(dr.delete_reg())
+#print(dr.delete_reg())
 
 
